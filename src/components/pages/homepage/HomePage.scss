@@ -1,0 +1,19 @@
+@use "../../../scss/" as *;
+
+.homepage {
+  .slider-group {
+    .box {
+      grid-column: span 3 / span 3 !important;
+    }
+    .box > div {
+      max-width: 100% !important;
+      max-height: fit-content !important;
+      .carousel-container {
+        max-width: 100% !important;
+        .carousel-item {
+          max-width: 100% !important;
+        }
+      }
+    }
+  }
+}

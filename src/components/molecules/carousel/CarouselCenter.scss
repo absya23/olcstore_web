@@ -1,0 +1,39 @@
+@use "../../../scss/" as *;
+.product-slide {
+  .splide__track {
+    // overflow-x: hidden !important;
+    // overflow-y: visible !important;
+  }
+  .splide__slide {
+    // max-height: 180px;
+    &.is-active {
+      // transform: scale(1.2) translateY(-10%);
+      // max-height: 200px;
+    }
+  }
+  .splide__arrow {
+    background: $primary-color;
+  }
+
+  .splide__arrow--prev,
+  .splide__arrow--next {
+    color: #fff;
+  }
+
+  .splide__arrow--prev {
+    top: 50%;
+    left: 0;
+    transform: translate(-30%, -50%);
+  }
+
+  .splide__arrow--next {
+    top: 50%;
+    right: 0;
+    transform: translate(30%, -50%);
+  }
+
+  .splide__pagination {
+    display: none;
+    visibility: hidden;
+  }
+}

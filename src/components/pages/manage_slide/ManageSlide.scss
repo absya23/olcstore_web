@@ -1,0 +1,29 @@
+@use "../../../scss/" as *;
+@import "~bootstrap/scss/bootstrap";
+
+.manage-slide {
+    display: flex;
+
+    .content {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+
+    td,
+    th {
+        text-align: center;
+        line-height: 50px
+    }
+
+    td > img {
+        margin-left: 90px;
+        height: 100px;
+    }
+
+    button>i {
+        margin-right: 3px;
+        font-size: 14px;
+    }
+}

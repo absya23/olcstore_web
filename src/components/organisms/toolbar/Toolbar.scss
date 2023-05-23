@@ -1,0 +1,19 @@
+@use "../../../scss/" as *;
+@import "~bootstrap/scss/bootstrap";
+
+.toolbar {
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    background-color: $primary-color;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: $text-color;
+    h2 {
+        margin: 0;
+    }
+    button {
+        margin-left: 20px;
+    }
+}

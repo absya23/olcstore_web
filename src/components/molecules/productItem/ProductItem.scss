@@ -1,0 +1,13 @@
+@use "../../../scss/" as *;
+
+.product-item {
+  .product-action {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+
+  &:hover .product-action {
+    transform: translateY(0);
+    opacity: 0.9;
+  }
+}

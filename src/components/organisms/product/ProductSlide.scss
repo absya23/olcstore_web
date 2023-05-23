@@ -1,0 +1,28 @@
+@use "../../../scss/" as *;
+.product-slide {
+  .splide__arrow {
+    background: $primary-color;
+  }
+
+  .splide__arrow--prev,
+  .splide__arrow--next {
+    color: #fff;
+  }
+
+  .splide__arrow--prev {
+    top: 35%;
+    left: 0;
+    transform: translateX(-30%);
+  }
+
+  .splide__arrow--next {
+    top: 35%;
+    right: 0;
+    transform: translateX(30%);
+  }
+
+  .splide__pagination {
+    display: none;
+    visibility: hidden;
+  }
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Quản lý sản phẩm",
+        "icon": "bi-box-fill",
+        "childrens": [
+            {
+                "title": "Quản lý danh mục",
+                "icon": "bi-book",
+                "path": "/admin/manage-catalog"
+            },
+            {
+                "title": "Quản lý loại sản phẩm",
+                "icon": "bi-columns",
+                "path": "/admin/manage-product-type"
+            },
+            {
+                "title": "Quản lý sản phẩm",
+                "icon": "bi-box-seam",
+                "path": "/admin/manage-product"
+            }
+        ]
+    },
+    {
+        "title": "Quản lý đơn hàng",
+        "icon": "bi-cash",
+        "path": "/admin/manage-order"
+    },
+    {
+        "title": "Quản lý slider",
+        "icon": "bi-sliders2",
+        "path": "/admin/manage-slide"
+    },
+        {
+        "title": "Đăng xuất",
+        "icon": "bi-box-arrow-left",
+        "path": "/admin"
+    }
+]

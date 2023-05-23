@@ -1,0 +1,24 @@
+@use "../../../scss/" as *;
+@import "~bootstrap/scss/bootstrap";
+
+.manage-product {
+    display: flex;
+
+    .content {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+
+    td,
+    th {
+        text-align: center;
+        line-height: 50px;
+    }
+
+    button>i {
+        margin-right: 3px;
+        font-size: 14px;
+    }
+}

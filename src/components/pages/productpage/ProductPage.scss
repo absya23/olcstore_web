@@ -1,0 +1,40 @@
+@use "../../../scss/" as *;
+
+.product-page {
+  transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  h2 {
+    font-size: 20px;
+  }
+  // category
+  .product-category {
+    .data-item {
+      overflow: hidden !important;
+    }
+    .data-list.show,
+    .sub-data-list.show {
+      visibility: visible;
+      display: block;
+      // transform: translateY(0);
+      // opacity: 1;
+      // height: auto;
+    }
+    .data-list,
+    .sub-data-list {
+      visibility: hidden;
+      display: none;
+    }
+  }
+}
+
+@keyframes lineV {
+  from {
+    transform: translateY(0);
+    opacity: 0;
+    height: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+    height: auto;
+  }
+}

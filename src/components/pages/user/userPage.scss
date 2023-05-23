@@ -1,0 +1,15 @@
+@use "../../../scss/" as *;
+
+.sign-in-page {
+  .user-nav {
+    a {
+      width: 100%;
+      text-align: center;
+      padding: 16px;
+    }
+    a.active {
+      color: $primary-color;
+      border-bottom: 2px solid $primary-color;
+    }
+  }
+}
