@@ -24,6 +24,7 @@ const SliderGroup = () => {
 			.then((res) => {
 				// console.log(res.data);
 				setSlides(res.data);
+				console.log(res.data);
 			})
 			.catch((error) => {
 				console.log(error);
@@ -33,7 +34,8 @@ const SliderGroup = () => {
 		<section className="mb-20 slider-group">
 			<div className="grid grid-cols-4 gap-x-[10px] h-[400px]">
 				<Carousel
-					data={slides}
+					// data={slides}
+					data={dataSlide}
 					time={2000}
 					captionPosition="bottom"
 					automatic={true}

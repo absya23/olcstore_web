@@ -13,6 +13,7 @@ import axios from "axios";
 import LoadingSkeleton from "../../../loading/LoadingSkeleton";
 import { useUser } from "../../../context/userContext";
 import ApiConfig from "../../../config/ApiConfig";
+import banner1 from "../../../assets/slider/banner1.jpg";
 
 const SingleProduct = () => {
 	//
@@ -173,7 +174,12 @@ const SingleProduct = () => {
 					<section className="grid grid-cols-2 gap-5 mb-10">
 						{/*>>>>> left product image */}
 						<div className="flex flex-col">
-							<img src={productImage} alt="" className="max-w-[500px]" />
+							<img
+								// src={productImage}
+								src={banner1}
+								alt=""
+								className="max-w-[500px]"
+							/>
 							{/* fix scroll y */}
 							<div className="mt-5 variants gap-x-2 max-w-[500px] preview-image-slide">
 								<Splide
