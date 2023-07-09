@@ -1,4 +1,4 @@
-# Cửa hàng OurLittleCorner - Stationery by NHOM21
+# Cửa hàng OurLittleCorner - Stationery 
 
 Project còn đang cập nhật....
 
